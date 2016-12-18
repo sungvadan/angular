@@ -20,6 +20,8 @@
       "../../node_modules/@types",
       "../../node_modules"
     ],
+    "compileOnSave": false,
+    "buildOnSave": false,
     "types": [
       "node",
       "jasmine",
