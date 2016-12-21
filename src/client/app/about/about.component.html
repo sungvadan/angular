@@ -10,3 +10,19 @@
   <li>TypeScript definition management using Types.</li>
   <li>Basic Service Worker, which implements "Cache then network strategy".</li>
 </ul>
+
+<!--{{contact}}
+<input type="text" #name placeholder="nom">
+<div [innerText]="email"></div>
+<button (click)="onClick($event, name.value)">Ok</button>
+
+<input type="text"  [(ngModel)]="movieTitle">
+
+{{movieTitle}}-->
+
+<ul>
+  <li *ngFor="let feature of features">
+    <feature-details [ftr]="feature"></feature-details>
+  
+  </li>
+</ul>
